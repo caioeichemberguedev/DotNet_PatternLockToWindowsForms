@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Revise os valores dos atributos do assembly
 
-<Assembly: AssemblyTitle("Desbloqueio Padrão")>
+<Assembly: AssemblyTitle("Pattern Lock")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Desbloqueio Padrão")>
-<Assembly: AssemblyCopyright("Copyright ©  2019")>
+<Assembly: AssemblyProduct("Pattern Lock")>
+<Assembly: AssemblyCopyright("Copyright ©  2020")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-<Assembly: Guid("30bf0b6e-df72-4a73-aa87-7a652bd6cdf7")>
+<Assembly: Guid("20217a56-7aed-44d0-b218-79c87548fdd3")>
 
 ' As informações da versão de um assembly consistem nos quatro valores a seguir:
 '
