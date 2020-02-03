@@ -24,6 +24,8 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.SenhaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TrocarSenhaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VoltarParaLoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -38,9 +40,22 @@ Partial Class Form2
         '
         'SenhaToolStripMenuItem
         '
+        Me.SenhaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TrocarSenhaToolStripMenuItem, Me.VoltarParaLoginToolStripMenuItem})
         Me.SenhaToolStripMenuItem.Name = "SenhaToolStripMenuItem"
         Me.SenhaToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
         Me.SenhaToolStripMenuItem.Text = "Senha"
+        '
+        'TrocarSenhaToolStripMenuItem
+        '
+        Me.TrocarSenhaToolStripMenuItem.Name = "TrocarSenhaToolStripMenuItem"
+        Me.TrocarSenhaToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.TrocarSenhaToolStripMenuItem.Text = "Trocar senha"
+        '
+        'VoltarParaLoginToolStripMenuItem
+        '
+        Me.VoltarParaLoginToolStripMenuItem.Name = "VoltarParaLoginToolStripMenuItem"
+        Me.VoltarParaLoginToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.VoltarParaLoginToolStripMenuItem.Text = "Voltar para login"
         '
         'Form2
         '
@@ -60,4 +75,6 @@ Partial Class Form2
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents SenhaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents TrocarSenhaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VoltarParaLoginToolStripMenuItem As ToolStripMenuItem
 End Class
